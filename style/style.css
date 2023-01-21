@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 0px;
+  background-color: #FBAB7E;
+  background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+}
+
+.full-content {
+  width: 100%;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 25%;
+  height: 100vh;
+  float: left;
+  text-align: center;
+  background-color: #F0F8FF;
+}
+
+.sidebar img {
+  width: 200px;
+  margin-top: 25px;
+  border-radius: 50%;
+}
+
+.btn-container {
+  margin-top: 25px;
+  padding: 25px;
+}
+
+.side-btn {
+  width: auto;
+  color: #fff;
+  display: block;
+  text-align: center;
+  padding: 8px 25px;
+  margin-bottom: 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: #F7CE68;
+}
+
+.side-btn:not(.active):hover {
+  background-color: rgba(247, 206, 104, 0.7);
+}
+
+.active {
+  background-color: #FBAB7E;
+}
+
+.content {
+  width: 75%;
+  float: right;
+}
+
+.container {
+  padding: 10px 25px;
+}
+
+.card {
+  border-radius: 15px;
+  padding: 10px 15px;
+  background-color: #F0F8FF;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.skill {
+  width: 100%;
+  height: auto;
+  padding: 15px 0px;
+}
+
+.skill-name {
+  width: 50%;
+  float: left;
+  text-align: left;
+}
+
+.skill-percent {
+  width: 50%;
+  float: right;
+  text-align: right;
+}
+
+.skill-level {
+  width: 100%;
+  height: 15px;
+  margin-top: 25px;
+  border-radius: 15px;
+  background-color: #e0e0e0;
+}
+
+.level {
+  height: 15px;
+  border-radius: 15px;
+}
+
+.level-html {
+  width: 90%;
+  background-color: #BF360C;
+}
+.level-css {
+  width: 80%;
+  background-color: #D81B60;
+}
+.level-js {
+  width: 75%;
+  background-color: #FFEB3B;
+}
+.level-git {
+  width: 60%;
+  background-color: #EF6C00;
+}
